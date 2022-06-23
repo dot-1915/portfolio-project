@@ -35,3 +35,26 @@ p {
   padding: 12px 30px;
   line-height: 27px;
 }
+
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 65px;
+  text-align: center;
+}
+
+.about-paragraph {
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.connect {
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+}
+
+.home-image {
+    max-width:300px;
+}
