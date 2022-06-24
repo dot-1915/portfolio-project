@@ -50,16 +50,18 @@ h4 {
 }
 
 .connect {
-    text-align: center;
-    font-size: 60px;
-    padding: 40px;
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
 }
 
-.home-image {
-    max-width:300px;
+.footer {
+  text-align: center;
+  font-size: 14px;
 }
 
-.footer{
-    text-align: center;
-    font-size:14px
+@media {
+  .home-image {
+    display: flex;
+  }
 }
