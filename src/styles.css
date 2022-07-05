@@ -43,18 +43,33 @@ h4 {
   text-align: center;
 }
 
+
 .about-paragraph {
   font-size: 17px;
   line-height: 1.5;
   text-align: center;
 }
 
+.connect a{
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+  text-decoration: none;
+  color:#212529;
+}
+
 .connect {
   text-align: center;
   font-size: 60px;
   padding: 40px;
+  
 }
 
+.connect a:hover{
+  color:#5fc496;
+  
+  transition: ease-in-out 150ms;
+}
 .signature {
   text-align: center;
   font-size: 14px;
@@ -96,20 +111,9 @@ footer {
   text-align: center;
   font-family: var(--heading-font-family);
   font-size: 24px;
-  padding: 60px;
+  padding: 20px;
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
-.footer-button {
-  background: #5fc496;
-  font-family: var(--default-font-family);
-  border: 1px solid #212529;
-  border-radius: 5px;
-  color: #212529;
-  transition: ease-in-out 150ms;
-}
 
-.footer-button:hover {
-  color: #5fc496;
-  background: #212529;
-}
+
